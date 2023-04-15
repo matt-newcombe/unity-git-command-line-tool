@@ -2,7 +2,8 @@ using System.Threading.Tasks;
 
 public static class GitCommands
 {
-  
+    public static string CURRENT_COMMIT_SHORT_HASH = "rev-parse --short HEAD";
+    
     public static Task<CommandLineOutput> GetCurrentBranchName()
     {
         return GitCommandLine.AsyncGitCommand("rev-parse --abbrev-ref HEAD");
@@ -10,7 +11,7 @@ public static class GitCommands
 
     public static Task<CommandLineOutput> GetCurrentCommitShortHash()
     {
-        return GitCommandLine.AsyncGitCommand("rev-parse --short HEAD");
+        return GitCommandLine.AsyncGitCommand(CURRENT_COMMIT_SHORT_HASH);
     }
     
     public static string GetGitPath()
