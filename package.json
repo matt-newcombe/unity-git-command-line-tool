@@ -1,0 +1,20 @@
+{
+    "name": "com.mattn.gitcmdline",
+    "version": "0.0.1",
+    "displayName": "Git CMD Line Tools",
+    "description": "This package provides some easier accessors to get git information in Unity",
+    "unity": "2020.1",
+    "documentationUrl": "https://github.com/matt-newcombe/unity-git-command-line-tool",
+    "licensesUrl": "https://github.com/matt-newcombe/unity-git-command-line-tool/blob/main/LICENSE",
+   "keywords": [
+      "git",
+      "commandline",
+      "tool"
+    ],
+    "author": {
+      "name": "Matthew Newcombe",
+      "email": "a@mnewcombe.com",
+      "url": "https://www.mnewcombe.com"
+    }
+  }
+  
